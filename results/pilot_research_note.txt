@@ -1,0 +1,31 @@
+Pilot experiment summary
+========================
+
+Model:
+Qwen/Qwen3.5-4B, 4-bit quantized
+
+Benchmark:
+20 reproducibly sampled GSM8K test questions
+
+Strict non-thinking baseline:
+Accuracy: 15.0%
+Average tokens: 9.5
+Average time: 1.45 seconds
+
+Fixed 512-token thinking:
+Accuracy: 80.0%
+Average tokens: 521.6
+Average time: 47.00 seconds
+
+Naive adaptive agreement policy:
+Accuracy: 60.0%
+Average tokens: 588.4
+Average time: 54.27 seconds
+Early agreement rate: 40.0%
+
+Initial finding:
+Agreement between two short reasoning samples was not a reliable
+confidence measure. Five of eight early agreements were incorrect,
+showing that sampled reasoning paths can share correlated errors.
+The naive adaptive policy therefore consumed more computation while
+achieving lower accuracy than the fixed 512-token strategy.

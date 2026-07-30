@@ -1,0 +1,4 @@
+strategy,questions,correct_answers,accuracy,average_generated_tokens,average_seconds
+Strict non-thinking,20,3,0.15,9.5,1.4519085778499856
+Fixed 512-token thinking,20,16,0.8,521.6,47.00032534385
+Naive adaptive agreement policy,20,12,0.6,588.4,54.27245166024993
