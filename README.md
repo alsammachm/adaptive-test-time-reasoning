@@ -4,6 +4,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alsammachm/adaptive-test-time-reasoning/blob/main/notebooks/adaptive_test_time_reasoning.ipynb)
 
+[![Read Technical Report](https://img.shields.io/badge/Read-Technical%20Report-2F5AA6)](report/Think_Verify_Stop_Technical_Report.pdf)
+
 This independent research and engineering project investigates how inference-time reasoning affects mathematical problem-solving in an open reasoning model.
 
 The study compares three inference strategies:
